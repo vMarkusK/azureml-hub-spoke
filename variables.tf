@@ -167,6 +167,7 @@ variable "vm_admin_user" {
 variable "vm_admin_pwd" {
   description = "Password for Virtual Machines"
   type        = string
+  sensitive   = true
 }
 
 variable "vm_size" {
